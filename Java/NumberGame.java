@@ -38,7 +38,6 @@ public class NumberGame {
     }
 
     public static void main(String[] args) {
-        //Scanner sc = new Scanner(System.in);
         int score = 0;
         score += gameProcess();
         while(true){
@@ -53,6 +52,5 @@ public class NumberGame {
             }
         }
         System.out.println("Your final score is: " + score);
-        //sc.close();
     }
 }
